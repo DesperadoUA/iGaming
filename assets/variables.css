@@ -1,0 +1,35 @@
+:root {
+	/* container width */
+	--container-width: 1230px;
+	--container--cms: 960px;
+
+	/* Theme color */
+	--cairo: #fff;
+	--calgary: #00ea17;
+	--cordoba: #b3b6c8;
+	--callao: rgba(206, 210, 226, 0.2);
+	--cucuta: #1b1831;
+	--colombo: #08051a;
+	--cancun: #232036;
+	--cochin: #323234;
+	--cardiff: rgba(0, 0, 0, 0.26);
+	--cleveland: #5e40b5;
+	--xxs: 2px;
+	--xs: 4px;
+	--s: 8px;
+	--m: 16px;
+	--l: 32px;
+	--xl: 64px;
+	--container-width: 1230px;
+	--container--cms: 960px;
+	--side-gutters: 0px;
+
+	/* Fonts */
+	--main_font: 'Unbounded';
+	--base-line-height: 1.7;
+
+	@media (max-width: 767px) {
+		--base-font-size: 15px;
+		--side-gutters: 20px;
+	}
+}
